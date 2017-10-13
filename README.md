@@ -83,4 +83,26 @@ Small:
 
 ## Adding File Links ##
 
+### Linking directly to a file ###
+
+This is the
+[example from the first walkthrough](https://github.com/NU-MSR/markdown_examples_me495/blob/master/src/publish_complex_numbers.py)
+using absolute linking, and
+[this is using relative linking](src/publish_complex_numbers.py). Note that the
+first example will always point to the latest commit on the `master` branch, and
+the second example will point to the latest commit of whatever branch the Markdown file is currently on.
+
+You can also reference specific lines from a file. So for example,
+[lines 13-16 are where the message is filled out](src/publish_complex_numbers.py#L13-L16).
+Note that if you are doing this, you need to be a bit careful that subsequent
+commits aren't changing the lines of code that you are referring to. If we
+pushed a commit that moved the relevant code to not be on lines 13-16, then our
+link would no longer point to the relevant code. So if you are specifically
+linking lines of code, it often makes sense to link using a
+[specific commit](../../blob/c88af74efeae2ce85a9d3f257898932f1c109fe5/src/publish_complex_numbers.py#L13-L16).
+Check
+[this post](http://andrew.yurisich.com/work/2014/07/16/dont-link-that-line-number/)
+about to learn more about this, and some nice keyboard shortcuts to
+automatically get the "right" link to use.
+
 

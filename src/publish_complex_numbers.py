@@ -11,9 +11,6 @@ def msg_pub():
     while not rospy.is_shutdown():
 
      msg = Complex()
-     # Alternatively we can use keyword arguments to initialize the message class. E.g.:
-     # 'msg = Complex(real=2.3, imaginary=4.6)' or 'msg = Complex(real=1.2)' or
-     # even 'msg = Complex(2.3, 4.6)'
      msg.real = random()
      msg.imaginary = random()
      rospy.loginfo("Complex number %d is %f + %fi", count, msg.real, msg.imaginary)

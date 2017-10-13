@@ -52,6 +52,12 @@ The image below is from Issue [#1](../../issues/1).
 
 ![planning_1_crop_small](https://user-images.githubusercontent.com/653487/31554556-8bb16c78-b003-11e7-98a3-de52209d7e3b.png)
 
+The image below is from a [comment that I made on one of my own files](../../commit/6e7f055305154b5a5a7b08dffdca63c2c623fec9#commitcomment-24960854). This
+avoids having to add an issue:
+![planning_1_crop_small](https://user-images.githubusercontent.com/653487/31554719-0ec3c354-b004-11e7-9485-0966917c3a01.png)
+
+
+
 ### Using HTML ###
 
 ### Using attributes of HTML ###

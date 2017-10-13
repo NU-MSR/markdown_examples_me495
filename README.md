@@ -56,11 +56,30 @@ The image below is from a [comment that I made on one of my own files](../../com
 avoids having to add an issue:
 ![planning_1_crop_small](https://user-images.githubusercontent.com/653487/31554719-0ec3c354-b004-11e7-9485-0966917c3a01.png)
 
-
-
 ### Using HTML ###
 
+We can always use raw HTML to link an image. All relative linking shown above also works. Here are two examples:
+
+Absolute link:
+
+<img src="https://github.com/nu-msr/markdown_examples_me495/raw/master/images/planning_1_crop_small.png" />
+
+Relative link:
+
+<img src="images/planning_1_crop_small.png?raw=true" />
+
 ### Using attributes of HTML ###
+
+HTML version is powerful because we can set image attributes:
+
+Big:
+
+<img src="https://github.com/nu-msr/markdown_examples_me495/raw/master/images/planning_1_crop.png" width=600 />
+
+Small:
+
+<img src="https://github.com/nu-msr/markdown_examples_me495/raw/master/images/planning_1_crop.png" width=100 />
+
 
 ## Adding File Links ##
 

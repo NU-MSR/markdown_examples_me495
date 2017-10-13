@@ -32,11 +32,25 @@ DON'T FORGET TO ADD THIS
 
 ![alt text](images/planning_1_crop_small.png?raw=true "Relative link")
 
+### Using raw domain: ###
+
+Note below will require a "token" appended to the end of the image is in a private repo:
+
+![alt text](https://raw.githubusercontent.com/nu-msr/markdown_examples_me495/master/images/planning_1_crop_small.png "Ra wdomain")
+
+### Using a raw domain with access token: ###
+
+![alt text](https://raw.githubusercontent.com/nu-msr/markdown_examples_me495/master/images/planning_1_crop_small.png?token=AAn4r7hDzBqhiCJ9ADUiUj-UkzO2MLR2ks5Z6hlDwA%3D%3D "Raw domain with token")
+
 ### Using GitHub issues/comments ###
 
 We can use a trick that GitHub allows us to add files to a repo as part of the
 commenting and issue tracking system. If we upload the image using that system,
-we can directly link it.
+we can directly link it. You could follow the
+[directions here](http://solutionoptimist.com/2013/12/28/awesome-github-tricks/).
+The image below is from Issue [#1](../../issues/1).
+
+![planning_1_crop_small](https://user-images.githubusercontent.com/653487/31554556-8bb16c78-b003-11e7-98a3-de52209d7e3b.png)
 
 ### Using HTML ###
 
